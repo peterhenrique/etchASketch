@@ -16,31 +16,33 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
 }
 .main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;    
-    width: 640px;
-    height: 640px;
+    gap: 20px;    
+    
 }
-.container{
+#container{
     display: flex;
     align-self: center;
-    width: 640px;
+    max-width: 640px;
+    max-height: 640px;
     height: 640px;
+    width: 640px;
+    flex-wrap: wrap;
 }
 
 .grid {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     background-color: whitesmoke;
-    margin: -2px;
+    margin: 0px;
     padding: 0px;
-    border: 1px;
+    border: 1px;    
     border-style:solid;
 }
 
